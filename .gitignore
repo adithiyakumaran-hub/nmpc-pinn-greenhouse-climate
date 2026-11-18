@@ -1,48 +1,27 @@
 # =====================
-# LaTeX build artifacts
+# Large data files
 # =====================
-*.aux
-*.bbl
-*.bcf
-*.blg
-*.fdb_latexmk
-*.fls
-*.log
-*.out
-*.run.xml
-*.synctex.gz
-*.toc
-*.lof
-*.lot
-*.idx
-*.ilg
-*.ind
-*.acn
-*.acr
-*.alg
-*.glg
-*.glo
-*.gls
-*.ist
-*.xdy
-*.nav
-*.snm
-*.vrb
-*.dvi
-*.ps
-*.pdfsync
-*.pdftex
+data/
+*.csv
+*.mat
+*.pth
 
-# Compiled PDF output (keep source, exclude build output)
-# Comment out the line below if you want to track the compiled PDF
-*.pdf
+# =====================
+# MATLAB artifacts
+# =====================
+*.asv
+*.m~
+slprj/
+*.slxc
+untitled.slx
+untitled2.m
+export_all_paper_figures.m
 
 # =====================
 # Python artifacts
 # =====================
 __pycache__/
 *.py[cod]
-*$py.class
 *.pyo
 *.pyd
 .Python
@@ -50,63 +29,43 @@ env/
 venv/
 .venv/
 ENV/
-*.egg
 *.egg-info/
 dist/
 build/
-.eggs/
+.ipynb_checkpoints/
 
-# Jupyter Notebooks (checkpoints)
-.ipynb_checkpoints
+# =====================
+# LaTeX (paper files)
+# =====================
+*.tex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
 
 # =====================
 # OS artifacts
 # =====================
-# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Spotlight-V100
-.Trashes
-
-# Windows
 Thumbs.db
-ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
-
-# Linux
-*~
 
 # =====================
 # Editor artifacts
 # =====================
-# VS Code
 .vscode/
-*.code-workspace
-
-# JetBrains IDEs
 .idea/
-*.iml
-
-# Vim
 *.swp
-*.swo
 *.bak
 *~
 
-# Emacs
-\#*\#
-.\#*
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
 # =====================
-# Misc
+# Old folder
 # =====================
+new/
 *.zip
-*.tar.gz
-*.rar
